@@ -1,11 +1,14 @@
 import { useState } from 'react'
-import NavBarForm from './components/NavBarForm'
+import NavBarForm from './components/NavBarForm';
+import css from './App.module.css';
+import Sidebar from './components/SideBar';
 
 function App() {
 
   return (
-    <div>
+    <div className={css.App}>
       <NavBarForm />
+      <Sidebar />
     </div>
 
   )
