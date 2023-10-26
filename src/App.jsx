@@ -2,7 +2,7 @@ import { useState } from 'react'
 import NavBarForm from './components/NavBarForm';
 import css from './App.module.css';
 import Sidebar from './components/SideBar';
-import ContentAPI from './components/ContentAPI';
+import ContentAPIHooks from './components/ContentAPIHooks';
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
     <div className={css.App}>
       <NavBarForm />
       <Sidebar />
-      <ContentAPI />
+      <ContentAPIHooks />
     </div>
 
   )
